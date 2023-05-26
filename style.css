@@ -86,3 +86,49 @@ body{
    transform: translateX(-50%);
    width: 700px;
 }
+
+.text-container{
+   max-width: 600px;
+   margin-top: 7%;
+   margin-left: 50%;
+}
+
+.text-container h1{
+   font-size: 80px;
+   font-weight: 400;
+}
+
+.text-container a {
+   display: inline-block;
+   color: #fff;
+   font-size: 18px;
+   margin-top: 30px;
+   text-decoration: none;
+   background-color: #00986f;
+   padding: 14px 40px;
+   border-radius: 30px;
+}
+
+.control{
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+   margin-top: 150px;
+}
+
+.control .line{
+   width: 250px;
+   height: 4px;
+   background-color: #fff;
+   margin: 0 20px;
+   border-radius: 3px;
+}
+
+.control .line span {
+   display: block;
+   width: 50%;
+   height: 6px;
+   margin-top: -1px;
+   border-radius: 4px;
+   background-color: #00986f;
+}
